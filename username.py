@@ -8,7 +8,6 @@
         ・ユーザー名を大文字に変換する
 '''
 
-
 class UserName:
     def __init__(self, name):
         if not (4 <= len(name) <= 20):
